@@ -1,0 +1,2 @@
+#! /bin/bash
+node -r ./scripts/scarlet.js $0 $*

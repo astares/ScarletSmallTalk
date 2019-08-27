@@ -1,0 +1,17 @@
+{
+  "name": "initEnvironment",
+  "version": "0.0.1",
+  "description": "SK compiler support (environment) plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publish": false,
+  "private": true,
+  "keywords": [
+    "Scarlet",
+    "Javascript"
+  ],
+  "author": "",
+  "license": "ISC"
+}

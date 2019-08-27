@@ -1,0 +1,43 @@
+/*
+S8 - A modern Smalltalk environment running on the "invisible machine".
+
+Copyright (C) 2016 Alejandro F. Reimondo <aleReimondo@smalltalking.net>
+
+Parts of source code written for Jtalk (Sept 2011),
+Copyright (C) 2011 by Nicolas Petton <petton.nicolas@gmail.com>
+Copyright (C) 2011 Jtalk contributors
+	David Graham <dgraham@iphouse.com>
+	Goran Krampe <goran@krampe.se>
+Also code and ideas from Clamato (http://clamato.net), written by Avi Byrant.
+The PetitParser library, published by Lukas Renggli (http://lukas-renggli.ch) and released under the MIT license.
+And people that contributed to Smalltalk on diverse media years(decades) before this license holders claimed ownership.
+
+Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+----------------------------------------------------------------------
+
+The text you are reading here is the residue of something that has run before.
+Keep the system running with responsibility. Smalltalk is not the words,
+ nor any definition, nor it current contents...
+Smalltalk include your feelings when you see it running.
+Smalltalk is what happens when time flows and you "are" here.
+Stop reading/writing code (thinking you are outside the system),
+ change your world with resposibility, one object at a time, with your hands,
+ during all your life, in family.
+*/
+

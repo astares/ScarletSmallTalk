@@ -1,0 +1,56 @@
+
+Current:
+
+testCompileNamedPrimitive
+	<primitive: 'crc32' module: 'Crypto' >
+
+function PrimitiveTestCase__testCompileNamedPrimitive(){
+	var self=this;
+	Crypto.crc32();
+	return self;
+}
+
+Goal(s):
+
+testCompileNamedPrimitive
+	<primitive: 'crc32' module: 'Crypto' >
+
+function PrimitiveTestCase__testCompileNamedPrimitive(){
+	var self=this;
+	try {
+		return Crypto.crc32(self, arguments); // arguments is a JS built-in magic var
+	} catch (exception){
+		if (exception instanceof PrimitiveFailedException) {
+		  // run fall through code
+		} else {
+			// pass on exception
+			throw exception;
+		}
+		self error: 'prim failed';
+	}
+	return self;
+}
+
+
+-----------
+
+if (denominator === 0)
+  throw new Error("Attempted division by zero!");
+
+catch (exception) {
+  if (exception instanceof TypeError) {
+    // Handle TypeError exceptions
+  } else if (exception instanceof ReferenceError) {
+    // Handle ReferenceError exceptions
+  } else {
+    // Handle all other types of exceptions
+  }
+
+
+  function DivisionByZeroError(message) {
+  this.name = "DivisionByZeroError";
+  this.message = (message || "");
+}
+
+DivisionByZeroError.prototype = new Error();
+DivisionByZeroError.prototype.constructor = DivisionByZeroError;

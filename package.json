@@ -1,0 +1,44 @@
+{
+  "name": "sk",
+  "version": "0.0.1",
+  "description": "Smalltalk kernel",
+  "main": "taskfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "publish": false,
+  "private": true,
+  "dependencies": {
+    "commander": "^3.0.0",
+    "compileSK": "file:./local_modules/compileSK",
+    "concat": "^1.0.3",
+    "readline-sync": "^1.4.10",
+    "rimraf": "^2.6.2",
+    "taskr": "^1.1.0"
+  },
+  "taskr": {
+    "requires": [
+      "./local_modules/compileSK/index.js"
+    ]
+  },
+  "devDependencies": {
+    "@taskr/concat": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LabWare/Kernel-Compiler.git"
+  },
+  "keywords": [
+    "smalltalk",
+    "javascript"
+  ],
+  "author": "LabWare",
+  "license": "SEE LICENSE IN license.txt",
+  "bugs": {
+    "url": "https://github.com/LabWare/Kernel-Compiler/issues"
+  },
+  "homepage": "https://github.com/LabWare/Kernel-Compiler#readme"
+}
